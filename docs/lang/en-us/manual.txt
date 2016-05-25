@@ -1,0 +1,118 @@
+Please read all of this document before installing or using PDMWeb.
+
+
+PDMWeb: Cadmus Release (A.0)
+============================
+
+    PDMWeb is an open-source, open-development product lifecycle management
+(PLM) system.  PDMWeb is still undergoing heavy development but some of the
+core functions have been created and are in place as alpha code.
+
+    If you would like to help contribute to the development of this software,
+please visit the PDMWeb home page at http://pdmweb.sourceforge.net .
+
+
+Requirements
+============
+
+    Web server or web hosting account running on any major operating system.
+    PHP (version 4.x) with support for the database you intend to use below.
+    SQL database system, one of the following:
+        MySQL (3.22 or higher).
+        PostgreSQL (7.0.3 or higher) [Not supported - yet!].
+        Oracle (9.x or higher) [Not supported - yet!].
+        DB2 (x.x or higher) [Not supported - yet!].
+        MS SQL Server (7 or 2000) directly or via ODBC [Not supported - yet!].
+        MS Access (2000 or XP) via ODBC [Not supported - yet!].
+    Optional but recommended, the Zend Optimizer for PHP.
+
+
+New Installation
+================
+
+    Download the latest version of the software from the PDMWeb web site
+(http://pdmweb.sourceforge.net).
+
+    Extract the files from the downloaded software release using either the zip
+or tar utilities depending on the file downloaded.
+
+    Upload all of the extracted files and directories from the htdocs
+directory to your web server or web host to a location that can be accessed
+from a web browser.  Ideally this should be a directory under the root
+directory of your web server but it can be located anywhere under the web
+server root.  Do not rename or move any of the files or directories from the
+htdocs directory structure.
+
+    If necessary update your web server to process files with a '.php'
+extension as PHP code and 'index.php' files as the directory index file.
+Hopefully if you already have PHP installed and running on your web server you
+shouldn't need to do this step.  You will need to refer to your web server and
+PHP documentation if you have no clue as to what I'm talking about here.
+
+    Create a database and database user on your database server.  Grant access
+to the database user to be able to create tables, modify, delete, etc. in the
+database you created.  Again, if you have no idea to what I'm talking about
+refer to your database software documentation.
+
+    From a web browser access the top level directory where you installed
+PDMWeb to.  If you installed the files directly under the root directory of the
+web server then this should be http://mysite.com  If your web server is set up
+to use index.php as a directory index ten your browser should be redirected to
+the installation page.
+
+    PDMWeb has a graphical install process to provide a simple set of steps to
+install the software and get your site up and running.  Follow the prompts and
+input the necessary information when requested and everything should install
+just fine.  Once the install has been successfully completed you should then be
+redirected back to the PDMWeb main page.
+
+    The default user ids and passwords installed as part of a standard install
+are:
+
+    Default administrator account: pdmweb pdmweb
+    Default guest account: guest guest
+
+    You will more than likely want to modify these accounts before you do too
+much else especially at least changing the default administrator password.
+
+From here you are now ready to begin building the objects and structure that
+you need to implement for your specific site.
+
+
+Upgrade
+=======
+
+   PDMWeb currently does not support an upgrade path.  With only one working
+release and it being from an earlier package with a different methodology there
+are no plans to support an upgrade from that release to this new version.
+
+    There are also no current plans to provide upgrade paths for the different
+alpha and beta development versions for this package until the first full
+release of the software package.  As installs of PDMWeb increase this policy
+may be revised.
+
+
+Common Installation Errors
+==========================
+
+    If you have some installation errors that you would like to see included
+here please send me an e-mail <mailto:merritdc@users.sourceforge.net>.
+
+    If you have copied the new files to a location with an existing PDMWeb
+installation then the browser will not be redirected to the install page.
+Either manually start the install by running install.php or remove the
+existing config.php file.
+
+
+Copyright and Disclaimer
+========================
+
+This application is open-source software released under the GNU General Public
+License (GPL).  Please see the source code and the docs directory for more
+details.  This software package and its contents are Copyright (c) 2002-2004
+PDMWeb, All Rights Reserved.
+
+
+Thank you for choosing PDMWeb as your PLM solution.
+
+The PDMWeb Development Team

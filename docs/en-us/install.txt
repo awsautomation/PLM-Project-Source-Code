@@ -1,0 +1,14 @@
+If you are looking for detailed instructions read the manual.txt file. If you
+are looking for a quick how-to install then continue reading.
+
+1. Download the latest release files to a local directory.
+2. Extract the downloaded files.
+3. Upload the extracted files & directory structure exactly to the web server.
+4. Update your web server to process the PDMWeb .php files.
+5. Create a database and database user for PDMWeb.
+6. Access index.php from your web server and the install GUI should load.
+7. Follow the GUI instructions.
+8. You're done! Continue to set up PDMWeb for your environment.
+
+The default administrator user id and password is: pdmweb pdmweb
+The default guest user id and password is: guest guest

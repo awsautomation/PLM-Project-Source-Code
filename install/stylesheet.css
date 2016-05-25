@@ -1,0 +1,642 @@
+/*
+ *+----------------------------------------------------------------------+
+ *| PDMWeb version Cadmus A.0                                            |
+ *+----------------------------------------------------------------------+
+ *| Copyright (c) 2002-2004 PDMWeb                                       |
+ *+----------------------------------------------------------------------+
+ *| This program is free software; you can redistribute it and/or modify |
+ *| it under the terms of the GNU General Public License as published by |
+ *| the Free Software Foundation; either version 2 of the License, or    |
+ *| (at your option) any later version.                                  |
+ *|                                                                      |
+ *| This program is distributed in the hope that it will be useful,      |
+ *| but WITHOUT ANY WARRANTY; without even the implied warranty of       |
+ *| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        |
+ *| GNU General Public License for more details.                         |
+ *|                                                                      |
+ *| You should have received a copy of the GNU General Public License    |
+ *| along with this program; if not, write to the Free Software          |
+ *| Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.            |
+ *+----------------------------------------------------------------------+
+ *| Authors: David Merritt <merritdc@users.sourceforge.net>              |
+ *|          Richard Bluemle <sticky@users.sourceforge.net>              |
+ *+----------------------------------------------------------------------+
+ *
+ * CVS Log Info:
+ *   $Log: stylesheet.css,v $
+ *   Revision 1.1  2004/01/27 19:30:36  merritdc
+ *   Added install support files
+ *
+ *   Revision 1.1.1.1  2004/01/16 15:25:01  merritdc
+ *   Initial release of Cadmus files
+ *
+ *
+ */
+
+
+/*
+ * default settings for the page
+ */
+body
+{
+    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: verdana, arial, sansserif;
+    color: #000000;
+    background-color: #ffffff;
+
+}
+
+/*
+ * bold weight
+ */
+.boldit
+{
+    font-weight: bold;
+}
+
+/*
+ * this is used to force the form tag to not occupy any space
+ */
+form
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/*
+ * this is used for warning messages displayed in the page
+ */
+.warn
+{
+    font-size: 13px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: verdana, arial, sansserif;
+    font-weight: bold;
+    color: #ff3333;
+    text-align: left;
+}
+
+/*
+ * this is used for the required fields indicator
+ */
+.required
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/*
+ * footer text
+ */
+.footer
+{
+    font-size: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: verdana, arial, sansserif;
+}
+
+/*******************
+ * textarea styles *
+ *******************/
+
+/*
+ * default textarea settings
+ */
+textarea.normal
+{
+    font-size: 11px;
+    font-family: verdana, arial, sansserif;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ffffff;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #000000;
+    border-bottom-color: #aaaaaa;
+    border-left-color: #000000;
+    border-right-color: #aaaaaa;
+
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+
+
+/****************
+ * input styles *
+ ****************/
+
+/*
+ * default input settings
+ */
+input
+{
+    font-size: 11px;
+    font-family: verdana, arial, sansserif;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ffffff;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #000000;
+    border-bottom-color: #aaaaaa;
+    border-left-color: #000000;
+    border-right-color: #aaaaaa;
+
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+
+/*
+ * used for buttons requiring bold text indicating default selection
+ */
+input.default_button
+{
+    color: #000000;
+    background-color : #fafafa;
+    font-weight: bold;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #aaaaaa;
+    border-bottom-color: #000000;
+    border-left-color: #aaaaaa;
+    border-right-color: #000000;
+}
+
+/*
+ * used for buttons not requiring bold text indicating optional selection
+ */
+input.optional_button
+{
+    color: #000000;
+    background-color : #fafafa;
+    font-weight: normal;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #aaaaaa;
+    border-bottom-color: #000000;
+    border-left-color: #aaaaaa;
+    border-right-color: #000000;
+}
+
+/*
+ * we use this to set the style on checkboxes to overide the
+ * default input style because IE will display the default input
+ * style incorrectly on checkboxes
+ */
+input.checkbox
+{
+    font-size: 11px;
+    font-family: verdana, arial, sansserif;
+    font-weight: normal;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #000000;
+    border-bottom-color: #aaaaaa;
+    border-left-color: #000000;
+    border-right-color: #aaaaaa;
+
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+/*
+ * this is for text entry in the search section, a width is set to expand the
+ * box to fill the search section
+ */
+.search_text
+{
+    width: 143px;
+}
+
+
+/**************************
+ * select & option styles *
+ **************************/
+
+/*
+ * used by all select dropdowns except those that are part of the standard
+ * lists on the left and right side
+ */
+select
+{
+    font-size: 11px;
+    font-family: verdana, arial, sansserif;
+    color: #000000;
+    background-color: #ffffff;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #000000;
+    border-bottom-color: #aaaaaa;
+    border-left-color: #000000;
+    border-right-color: #aaaaaa;
+}
+
+/*
+ * this is for select list entry in all the sections, a width is set to expand the
+ * select boxes to fill the sections
+ */
+select.search_quick
+{
+    font-size: 11px;
+    width: 150px;
+    font-family: verdana, arial, sansserif;
+    color: #000000;
+    background-color: #ffffff;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-color: #000000;
+    border-bottom-color: #aaaaaa;
+    border-left-color: #000000;
+    border-right-color: #aaaaaa;
+}
+
+/*
+ * sets the default option style
+ */
+option
+{
+    font-size: 11px;
+    font-family: verdana, arial, sansserif;
+    border-color : #000000;
+}
+
+
+/***********************
+ * table & cell styles *
+ ***********************/
+
+/*
+ * this is for the table that surronds the main content
+ */
+.main
+{
+    border-top-color: #006699;
+    border-bottom-color: #006699;
+    border-left-color: #006699;
+    border-right-color: #006699;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*
+ * this is for the table that surronds the main content
+ */
+table.main
+{
+    background-color: #ffffff;
+
+    width: 95%;
+}
+
+/*
+ * this is for the table that borders each block
+ */
+table.status
+{
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    border-right-color: #000000;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 9px;
+    font-family: verdana, arial, sansserif;
+    color: #000000;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    background-color: #cecece;
+
+    width: 40%;
+}
+
+
+td.status
+{
+    font-size: 9px;
+    font-family: verdana, arial, sansserif;
+    color: #ffffff;
+    background-color: #006699;
+    height: 14px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/*
+ * this is for the table that borders each block
+ */
+table.outer_border
+{
+    border-top-color: #006699;
+    border-bottom-color: #006699;
+    border-left-color: #006699;
+    border-right-color: #006699;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    background-color: #efefef;
+}
+
+/*
+ * header cell for each block
+ */
+td.section_header
+{
+    color: #ffa34f;
+    background-color: #006699;
+    height: 22px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+ * this is used for each menu item in the menu section
+ */
+td.menu_item
+{
+    color: #ffa34f;
+    background-color: #efefef;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 22px;
+}
+
+/*
+ * this is the table cell used in the header containing the logo, user name,
+ * profile, logout, etc.
+ */
+.header
+{
+    background-color: #efefef;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 22px;
+}
+
+/*
+ * table cells used for the main body of the page
+ */
+.body_column
+{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*
+ * light cells used for display lists, alternate between this and the dark style
+ */
+.list_light
+{
+    background-color: #dee3e7;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*
+ * dark cells used for display lists, alternate between this and the light style
+ */
+.list_dark
+{
+    background-color: #d1d7dc;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/********************
+ * hyperlink styles *
+ ********************/
+
+/*
+ * all hyperlinks other than the help (?) links
+ */
+a
+{
+    font-size: 11px;
+    font-family: verdana, arial, sansserif;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: #006699;
+}
+
+a:active
+{
+    text-decoration: none;
+    color: #006699;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: #006699;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #dd6900;
+}
+
+a:focus
+{
+    text-decoration: underline;
+    color: #dd6900;
+}
+
+/*
+ * the help (?) hyperlinks
+ */
+a.help:visited
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.help:active
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.help:link
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.help:hover
+{
+    text-decoration: underline;
+    color: #dd6900;
+}
+
+a.help:focus
+{
+    text-decoration: underline;
+    color: #dd6900;
+}
+
+/*
+ * all footer hyperlinks
+ */
+a.footer
+{
+    font-size: 9px;
+    font-family: verdana, arial, sansserif;
+}
+
+a.footer:visited
+{
+    text-decoration: none;
+    color: #006699;
+}
+
+a.footer:active
+{
+    text-decoration: none;
+    color: #006699;
+}
+
+a.footer:link
+{
+    text-decoration: none;
+    color: #006699;
+}
+
+a.footer:hover
+{
+    text-decoration: underline;
+    color: #dd6900;
+}
+
+a.footer:focus
+{
+    text-decoration: underline;
+    color: #dd6900;
+}
+

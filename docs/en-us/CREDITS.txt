@@ -1,0 +1,38 @@
+PDMWeb Credits
+==============
+
+    PDMWeb, being an open-source product, is a collaborative effort using the
+best diverse ideas from around the web to build a product that, hopefully, can
+be of use to others out there on the web. Below is a list of people and
+organizations that have either been directly involved in, have helped influence
+(either willingly or unknowingly), or their code has been used in PDMWeb.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Richard Bluemle <mailto:sticky@users.sourceforge.net>.
+    For being a royal pain in the derriere. If it can be broken leave it to
+    Richard to break it. Richard's continued support and feedback on the PDMWeb
+    project has been invaluable.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Kurt De Bruycker <mailto:kubru@users.sourceforge.net>.
+    Kurt was the original creator of the PDMWeb project. Unfortunately, Kurt
+    was not able to continue with what he had started, but thanks go to Kurt
+    for establishing and creating the original SourceForge project.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Clay Loveless <mailto:clay@killersoft.com>.
+    For validateEmailFormat.php. The code from validateEmailFormat.php is used
+    in PDMWeb to validate e-mail addresses to the RFC-822 format.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+PHPbb <http://phpbb.com>.
+    PHPbb is an open-source PHP-based bulletin board system. The PDMWeb default
+    style is based loosely upon the PHPbb default style.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+PostNuke <http://postnuke.com>.
+    PostNuke is an open-source PHP-based CMS software. The page layout and
+    processing methodology behind PDMWeb is based loosely upon PostNuke.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+eMatrix <http://matrix.com>.
+    eMatrix is a proprietary PLM system from Matrix. The PLM methodology used
+    in PDMWeb is loosely based upon the methodology used in the eMatrix
+    software. Some of the business object images files have been ripped
+    directly from eMatrix.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
